@@ -1,0 +1,19 @@
+<a href="/"><button>Go Back</button></a>
+    <div class="timerTitle">
+        Timer
+    </div>
+
+    <div class="timerButtons">
+    <a href="/timer"><button class="btn btn-black btn-lg">Table Topics</button></a>
+    <a href="/timer"><button class="btn btn-black btn-lg">Ice Breaker</button></a>
+    </div>
+
+
+<div class="timeClock">
+    <div ng-class="backGroundClass">
+        <h1>{{timeContent}}</h1>
+        <button id="start" ng-click="startTimer()">start</button>
+        <button id="stop" ng-click="stopTimer()">stop</button>
+        <button id="clear" ng-click="clearTimer()">clear</button>
+    </div>
+</div>

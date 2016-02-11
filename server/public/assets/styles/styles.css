@@ -1,0 +1,119 @@
+img {
+    margin: 20px 10px 10px 20px;
+}
+
+.homeTitleOne {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.homeTitleTwo {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 180px;
+
+}
+
+.homePageButtons {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homePageButtons button {
+    width: 20%;
+    margin: 0 5px;
+}
+
+#footer {
+    border-top: double;
+    width: 75%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    text-align: center;
+    margin: 0 auto;
+    right: 0px;
+
+}
+#footer li {
+    display: inline-block;
+    width: 15%;
+}
+
+.timerTitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+.timerButtons {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.timerButtons button {
+    width: 20%;
+    margin: 0 5px;
+}
+
+.fillerTitle {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.grammarianTitle {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.grammarianForm{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+a{
+    margin:20px 10px 10px 20px;
+}
+
+.clickCounter{
+    text-align:center;
+}
+
+.clickCounter button{
+
+}
+
+.timeClock{
+    text-align:center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.red-bg {
+    background-color:red;
+    border-radius: 70px;
+}
+
+.yellow-bg {
+    background-color: yellow;
+    border-radius: 70px;
+}
+
+.green-bg {
+    background-color: green;
+    border-radius: 70px;
+}
+
+.backGroundClass {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
