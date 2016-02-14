@@ -7,6 +7,7 @@ var router = express.Router();
 
 //get request that appends all '/' to html
 //__dirname is relative to where we are now
+
 router.get('/', function(request, response){
     response.sendFile(path.join(__dirname, '../public/views/index.html'))
 });

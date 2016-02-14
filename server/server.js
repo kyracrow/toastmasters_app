@@ -3,8 +3,8 @@
  */
 var express = require('express');
 var index = require('./routes/index');
-var bodyParser = require('body-parser');
-var path = require('path');
+//var bodyParser = require('body-parser');
+//var path = require('path');
 
 var app = express();
 

@@ -19,8 +19,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             controller: 'TimerController'
         })
         .when('/grammarian', {
-            templateUrl:'views/grammarian.html',
-            controller:'MainController'
+            templateUrl: 'views/grammarian.html',
+            controller: 'MainController'
+        })
+        .when('/admin', {
+            templateUrl: 'views/admin.html'
         });
     $locationProvider.html5Mode(true);
 }]);
