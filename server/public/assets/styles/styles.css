@@ -1,18 +1,17 @@
-img {
-    margin: 20px 10px 10px 20px;
+body {
+    background:#bec8d1;
+
 }
 
 .homeTitleOne {
     text-align: center;
     font-size: 25px;
-
 }
 
 .homeTitleTwo {
     text-align: center;
     font-size: 40px;
     margin-left: 180px;
-
 }
 
 .homePageButtons {
@@ -30,14 +29,14 @@ img {
     border-top: double;
     width: 75%;
     height: 50px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0px;
     text-align: center;
     margin: 0 auto;
     right: 0px;
-
 }
+
 #footer li {
     display: inline-block;
     width: 15%;
@@ -49,45 +48,54 @@ img {
 }
 
 .timerButtons {
-    padding-top: 50px;
-    text-align: center;
+    display: block;
     margin: 0 auto;
 }
 
-.timerButtons button {
-    width: 20%;
-    margin: 0 5px;
+.timerButtons button{
+    margin: 20px auto;
+    display: block;
+    float: left;
 }
 
-.fillerTitle {
+.fillerWordTitle {
     text-align: center;
-    padding-top: 10px;
     font-size: 40px;
+    padding-bottom:80px;
 }
 
 .grammarianTitle {
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 30px;
     font-size: 40px;
 }
 
-.grammarianForm{
-    margin: 0 auto;
+.grammarianForm {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.fillerWordCounter{
+    margin: 0 auto 25px;
+    width: 100%;
     text-align:center;
 }
 
-a{
-    margin:20px 10px 10px 20px;
+.fillerWordCounter button{
+    padding:15px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 55px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    width:15%;
 }
 
-.clickCounter{
-    text-align:center;
-}
-
-.clickCounter button{
-
+.divider {
+    display: inline-block;
+    padding: 30px;
 }
 
 .timeClock{
@@ -97,23 +105,66 @@ a{
 }
 
 .red-bg {
-    background-color:red;
-    border-radius: 70px;
+    background-color:#780000;
+    width: 575px;
+    height: 250px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
 }
 
 .yellow-bg {
-    background-color: yellow;
-    border-radius: 70px;
+    background-color: #f0e68c;
+    width: 575px;
+    height: 250px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
 }
 
 .green-bg {
-    background-color: green;
-    border-radius: 70px;
+    background-color: #006633;
+    width: 575px;
+    height: 250px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
 }
 
 .backGroundClass {
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
 }
 
+.btn-tt {
+    display: block;
+    float: left;
+    margin: 31px;
+    width: 32%;
+}
 
+.bothButtons {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.backButton {
+    margin-left: 20px;
+    border-radius: 5px 10px;
+}
+
+.adminButton {
+    margin-left: 20px;
+    border-radius: 5px 10px;
+}

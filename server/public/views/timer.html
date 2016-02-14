@@ -1,16 +1,21 @@
+<div class="backButton">
 <a href="/"><button>Go Back</button></a>
+    </div>
     <div class="timerTitle">
         Timer
     </div>
 
-    <div class="timerButtons">
-    <a href="/timer"><button class="btn btn-black btn-lg">Table Topics</button></a>
-    <a href="/timer"><button class="btn btn-black btn-lg">Ice Breaker</button></a>
-    </div>
-
-
 <div class="timeClock">
     <div ng-class="backGroundClass">
+            <div class="bothButtons">
+            <div ng-class="tableTopicBtn" class="btn-tt">
+                <button ng-click="setTableTopic()">Table Topics</button>
+            </div>
+
+            <div ng-class="iceBreakerBtn">
+                <button class="btn-tt" ng-click="setIceBreaker()">Ice Breaker</button>
+            </div>
+        </div>
         <h1>{{timeContent}}</h1>
         <button id="start" ng-click="startTimer()">start</button>
         <button id="stop" ng-click="stopTimer()">stop</button>

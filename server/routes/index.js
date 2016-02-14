@@ -8,7 +8,7 @@ var router = express.Router();
 //get request that appends all '/' to html
 //__dirname is relative to where we are now
 router.get('/', function(request, response){
-    response.sendFile(path.join(__dirname, '../public/views/index.html'));
+    response.sendFile(path.join(__dirname, '../public/views/index.html'))
 });
 
 router.get('/timer', function(request, response){
@@ -21,9 +21,14 @@ router.get('/filler', function(request, response){
     response.sendFile(path.join(__dirname, '../public/views/filler.html'))
 });
 
-router.get('grammarian', function(request, response){
+router.get('/grammarian', function(request, response){
     console.log('Success on Grammarian');
     response.sendFile(path.join(__dirname, '../public/views/grammarian.html'))
+});
+
+router.get('/admin', function(request, response){
+    console.log('Success on Admin');
+    response.sendFile(path.join(__dirname, '../public/views/admin.html'))
 });
 
 module.exports = router;
